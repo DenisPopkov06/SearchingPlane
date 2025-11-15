@@ -1,0 +1,55 @@
+.tickets-container {
+  width: 65%;
+}
+
+.tickets-container__item {
+  background-color: #e8ebf2;
+  border-radius: 10px;
+  width: 155%;
+  padding: 15px 0 25px;
+  margin-top: -200px;
+  margin-bottom: 230px;
+}
+
+.tickets-container__item__info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 100%);
+  align-items: end;
+}
+
+.tickets-container__item__info__price,
+.tickets-container__item__info__time,
+.tickets-container__item__info__company {
+  text-align: center;
+}
+
+.price {
+  color: #4e148c;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.transfer-info,
+.status,
+.transfers {
+  color: #858ae3;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.transfer-time-info,
+.time,
+.transfers-counter {
+  color: #4e148c;
+  font-size: 16px;
+  font-weight: 500px;
+}
+
+.transfers-img {
+  width: 85%;
+  height: 65px;
+  margin-bottom: 10px;
+}

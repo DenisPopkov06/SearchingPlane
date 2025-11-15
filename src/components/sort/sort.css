@@ -1,0 +1,30 @@
+.sort{
+    display: grid;
+    width: 65%;
+    float: right;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 8px;
+    border: 2px solid #4E148C;
+    height: 55px;
+}
+
+.sort__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #4E148C;
+    cursor: pointer;
+}
+
+.sort__item:not(:last-child){
+    border-right: 2px solid #4E148C;
+}
+
+.active{
+    color: white;
+    background-color: #4E148C;
+    border: 2px solid #4E148C;
+}
+

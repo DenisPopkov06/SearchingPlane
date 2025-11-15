@@ -1,0 +1,10 @@
+.category__list__button__companies {
+  height: 21px;
+  width: 21px;
+  background-color: transparent;
+  border: 1px solid #4e148c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
